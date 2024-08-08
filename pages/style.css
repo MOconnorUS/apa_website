@@ -1,0 +1,268 @@
+h2 {
+    text-align: center;
+}
+
+.page-title {
+    text-align: center;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.home-button {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 4px 150px;
+    background-color: white;
+    color: grey;
+}
+
+.home-section {
+    position: relative;
+    height: 400px;
+    background: url('../images/crop_tests/home_page_image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.home-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+div.list-container {
+    text-align: center;
+}
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+}
+
+.list-highlight {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.blue-white {
+    background-color: #1c4587;
+    color: white;
+}
+
+.white-blue {
+    background-color: white;
+    color: #1c4587;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.box-image-button {
+    margin-top: 5px;
+} 
+
+.home-wrapper {
+    background-color: #666666;
+}
+
+/* About page */
+.about-title {
+    text-align: center;
+    color: #1c4587;
+}
+
+.grey-background {
+    background-color: #666666;
+    color: white;
+}
+
+#center {
+    text-align: center;
+}
+
+.terry-picture-container {
+    display: flex;
+    align-items: center;
+}
+
+.terry-picture-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.terry-picture-text {
+    padding-left: 25px;
+}
+
+.company-photo-container {
+    display: flex;
+    align-items: center;
+}
+
+.company-photo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Info page */
+.info-section {
+    position: relative;
+    height: 400px;
+    background: url('../images/crop_tests/information_background_replacement.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.info-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.info-container {
+    padding-top: 25px;
+}
+
+/* Careers page */
+.career-section {
+    position: relative;
+    height: 400px;
+    background: url('../images/careers-banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.career-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+/* Contact Us page */
+.contact-section {
+    position: relative;
+    height: 400px;
+    background: url('../images/contact_graphic.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.contact-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.contact-container {
+    padding-top: 25px;
+}
+
+.contact-highlight {
+    font-weight: bold;
+}
+
+/* Position List page */
+.position-section {
+    position: relative;
+    height: 400px;
+    background: url('../images/position_list_img.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.position-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.toggle-header {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.toggle-header:hover {
+    background-color: #0056b3;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.pos-container {
+    padding-top: 25px;
+}
+
+/* Core Capabilities page */
+.capabilities-button {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 4px 150px;
+    background-color: white;
+    color: #1c4587;
+}
+
+/* Strategic Advantages page */
+.strat-section {
+    position: relative;
+    height: 400px;
+    background: url('../images/strategic_advantages_graphic.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.strat-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+}
+
+/* Events page */
+.events-section {
+    position: relative;
+    height: 400px;
+    background: url('../images/apa_llc.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.events-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
