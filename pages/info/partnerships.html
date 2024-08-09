@@ -6,92 +6,235 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../style.css">
     </head>
 
-    <!-- Set background ship image for this portion via css -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Partnerships</h1>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../home.html">
+                        <img src="../../images/APA_logo.png" alt="Home">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../about.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../information.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Information
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="capabilities.html">Capabilities</a></li>
+                                    <li><a class="dropdown-item" href="strategic_advantages.html">Strategic Advantages</a></li>
+                                    <li><a class="dropdown-item" href="events.html">Events</a></li>
+                                    <li><a class="dropdown-item" href="partnerships.html">Partnerships</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../careers.html">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Set background ship image for this portion via css -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 partner-section">
+                    <div class="partner-title">
+                        <h1>Partnerships</h1>
+                    </div>
+                </div>
             </div>
-    </div>
-
-    <!-- can get exact hex from google sites, need to fix the breaks on bullets -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h2>APA has provided effective solutions for</h2>
-
-            <h2>Clients</h2>
-            <div class="partnership-wrapper">
-                <p>United States Navy</p>
-                <!-- Input image -->
-            </div>
-
-            <div class="partnership-wrapper">
-                <p>Department of Veteran Affairs</p>
-                <!-- Input image -->
-            </div>
-
-            <div class="partnership-wrapper">
-                <p>W.R. Grace</p>
-                <!-- Input image -->
-            </div>
-
-            <h2>Contract Vehicles</h2>
-            <div class="partnership-wrapper">
-                <p>SeaPort NxG & SeaPort-e</p>
-                <!-- Input image -->
-            </div>
-
-            <div class="partnership-wrapper">
-                <p>VA VECTOR IDIQ</p>
-                <!-- Input image -->
-            </div>
-            
-            <h2>Our Certifications</h2>
-            <ul>
-                <li class="list-item">
-                    <p class="list-info">SBA Certified Service-Disabled Veteran Owned Small Business (SDVOSB).</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">SBA Certified 8(a).</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">DOT certified Disadvantaged Business Enterprise (DBE).</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">DCAA Compliant.</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">CMMC Level II.</p>
-                </li>
-            </ul>
-
-            <h2>Our Achievements</h2>
-            <ul>
-                <li class="list-item">
-                    <p class="list-info">Commonwealth of Virginia - Virginia Values Veterans (V3) certified.</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">Graduate of Veteran Institute for Procurement (VIP).</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">Commonwealth of Virginia - Small, Women-owned, and Minority-Owned (SWaM) certified company.</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">Listed on Inc 5000 (ranked 1342) for 2023.</p>
-                </li>
-                <li class="list-item">
-                    <p class="list-info">Awarded with the 2024 Best Places to work in Greater Washington DC area.</p>
-                </li>
-            </ul>
-
-            <button class="back-button" type="button">
-                <a href="../information.html">Back</a>
-            </button>
-
         </div>
-    </div>
 
+        <!-- can get exact hex from google sites, need to fix the breaks on bullets -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>APA has provided effective solutions for</h2>
+                    <br>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2>Clients</h2>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2>Contract Vehicles</h2>
+                </div>
+                
+                <div class="col-lg-3">
+                    <p>United States Navy</p>
+                    <img src="../../images/carousel_images/dept_of_navy_logo.png" alt="Department of the Navy" class="partner-image">
+                </div>
+                
+                <div class="col-lg-3">
+                    <p>Department of Veteran Affairs</p>
+                    <img src="../../images/VA-Logo.png" alt="Department of Veteran Affairs" class="partner-image">
+                </div>
+
+                <div class="col-lg-3">
+                    <p>SeaPort NxG & SeaPort-e</p>
+                    <img src="../../images/seaport.png" alt="SeaPort" class="partner-image">
+                </div>
+                
+                <div class="col-lg-3">
+                    <p>VA VECTOR IDIQ</p>
+                    <img src="../../images/va_vector_idiq.png" alt="VA Vector" class="partner-image">
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="center">W.R. Grace</p>
+                    <img src="../../images/Grace-logo-COLOR.jpg" alt="W.R. Grace" class="partner-image-bot">
+                </div>
+                
+                <h2>Our Certifications</h2>
+                <ul>
+                    <li class="list-item">
+                        <p class="list-info">SBA Certified Service-Disabled Veteran Owned Small Business (SDVOSB).</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-info">SBA Certified 8(a).</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-info">DOT certified Disadvantaged Business Enterprise (DBE).</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-info">DCAA Compliant.</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-info">CMMC Level II.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="blue-white">
+            <div class="container">
+                <div class="row">
+                    <h2>Our Achievements</h2>
+                    <ul>
+                        <li class="list-item">
+                            <p class="list-info">Commonwealth of Virginia - Virginia Values Veterans (V3) certified.</p>
+                        </li>
+                        <li class="list-item">
+                            <p class="list-info">Graduate of Veteran Institute for Procurement (VIP).</p>
+                        </li>
+                        <li class="list-item">
+                            <p class="list-info">Commonwealth of Virginia - Small, Women-owned, and Minority-Owned (SWaM) certified company.</p>
+                        </li>
+                        <li class="list-item">
+                            <p class="list-info">Listed on Inc 5000 (ranked 1342) for 2023.</p>
+                        </li>
+                        <li class="list-item">
+                            <p class="list-info">Awarded with the 2024 Best Places to work in Greater Washington DC area.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <a class="back-button-white" href="../information.html">Back</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <section class="slider-container">
+                            <div class="slider">
+                                <div class="slide-track">
+                                    <!-- Add your images here -->
+                                    <div class="slide"><img src="../../images/carousel_images/best_places_to_work_2024.png" alt="Best Places to Work 2024"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/dbe_logo.png" alt="DBE"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/dept_of_navy_logo.png" alt="Department of the Navy"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/inc5000_badge.jpg" alt="Inc 500"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/navsea_logo.png" alt="NAVSEA"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/onr_logo.png" alt="ONR"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/sba_logo.png" alt="SBA 8a"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/sdvosb_logo.png" alt="SDVOSB"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/swam_logo.png" alt="SWaM"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/v3_logo.png" alt="V3"></div>
+                                    <div class="slide"><img src="../../images/carousel_images/vip_badge2.jpg" alt="VIP"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Content -->
+            <div class="container">
+                <div class="row footer-content">
+                    <div class="col-md-4 footer-links">
+                        <h5 class="center">NAICS Codes</h5>
+                        <p>
+                            519190 | 541330 | 541513 | 541611 | 541614 | 541618 
+                        </p>
+                        <p>
+                            541690 | 541712 | 541990 | 551114 | 561110 | 561311  
+                        </p>
+                        <p>
+                            561410 | 561499 | 561990
+                        </p>
+                    </div>
+                    <div class="col-md-4 footer-images text-center">
+                    </div>
+                    <div class="col-md-4 footer-info center">
+                        <h5>Cage Code</h5>
+                        <p>6WKA5</p>
+                        <h5>DUNS Code</h5>
+                        <p>078815548</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka74BHBh9dHRPykFEOmPzrF0XBM9tzzrUMIlF8V6gWsPqfT0B14ovJ32m0G7GBR2" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const slider = document.querySelector('.slide-track');
+                const slides = document.querySelectorAll('.slide');
+                const slideCount = slides.length;
+                const slideWidth = slides[0].clientWidth;
+                let index = 0;
+
+                // Clone slides for infinite loop effect
+                const slidesClone = slider.innerHTML;
+                slider.innerHTML += slidesClone; // Duplicate slides
+
+                function slide() {
+                    index++;
+                    // Set to loop through the cloned slides
+                    if (index >= slideCount * 2) {
+                        slider.style.transition = 'none'; // Disable transition for instant reset
+                        index = 0; // Reset index to start
+                        slider.style.transform = `translateX(0)`;
+                        // Force a reflow to reset the transition
+                        slider.offsetHeight; // Trigger a reflow
+                        slider.style.transition = 'transform 0.5s ease-in-out'; // Re-enable transition
+                    } else {
+                        slider.style.transform = `translateX(-${index * slideWidth}px)`;
+                    }
+                }
+
+                setInterval(slide, 3000); // Change image every 3 seconds
+            });
+        </script>
+    </body>
 </html>
